@@ -1,0 +1,12 @@
+{
+  "name": "p6-moral-composition01",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/logic.test.js tests/static.test.js",
+    "test:browser": "node tests/browser.test.js"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.49.1"
+  }
+}
