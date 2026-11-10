@@ -1,0 +1,509 @@
+{
+  "version": "1.0",
+  "status": "CONTENT_ONLY_NOT_IMPLEMENTED",
+  "language": "zh-Hant + en-GB",
+  "stations": [
+    {
+      "id": 1,
+      "title": "Tense Timeline｜時態時間線",
+      "target": "辨認過去敘事、直接說話及未來志願。",
+      "items": [
+        {
+          "id": "S1-01",
+          "type": "short_text",
+          "prompt": "Last Friday, Grace ___ (go) to a care home.",
+          "answer": "went",
+          "feedback_zh": "Last Friday 是過去時間。",
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-02",
+          "type": "short_text",
+          "prompt": "She ___ (meet) a volunteer at the door.",
+          "answer": "met",
+          "feedback_zh": "敘事承接上題的過去時間。",
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-03",
+          "type": "short_text",
+          "prompt": "The volunteer ___ (give) her a storybook.",
+          "answer": "gave",
+          "feedback_zh": "give 的過去式是 gave。",
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-04",
+          "type": "short_text",
+          "prompt": "After Grace ___ (read) the story, the visitors clapped.",
+          "answer": "read",
+          "feedback_zh": "這裏是過去式 read，拼寫不變，讀音為 /red/。",
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-05",
+          "type": "single_choice",
+          "prompt": "At first, she ___ nervous.",
+          "answer": "was",
+          "feedback_zh": "單數主語 she，過去敘事用 was。",
+          "options": [
+            "is",
+            "was",
+            "were"
+          ],
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-06",
+          "type": "single_choice",
+          "prompt": "The volunteer said, “You ___ speak slowly.”",
+          "answer": "can",
+          "feedback_zh": "直接說話可用 can；不要把引號內所有動詞改成過去式。",
+          "options": [
+            "can",
+            "did",
+            "was"
+          ],
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-07",
+          "type": "single_choice",
+          "prompt": "My future plan: If I become a coach, I ___ children.",
+          "answer": "will teach",
+          "feedback_zh": "未來計劃：If + 現在式，主句 will + 原形。",
+          "options": [
+            "taught",
+            "will teach",
+            "teaching"
+          ],
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        },
+        {
+          "id": "S1-08",
+          "type": "single_choice",
+          "prompt": "Keep the whole story in the past: Last year, Tim trained hard. In the end, he ___ more confident.",
+          "answer": "became",
+          "feedback_zh": "本題指定全段維持過去敘事。",
+          "options": [
+            "becomes",
+            "become",
+            "became"
+          ],
+          "hint_zh": "先找時間提示，再判斷這是敘事、直接說話，還是未來計劃。"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sentence Clinic｜句子診所",
+      "target": "穩定動詞搭配及常用表達；a/an、形容詞副詞為鞏固題。",
+      "items": [
+        {
+          "id": "S2-01",
+          "type": "single_choice",
+          "prompt": "Amy wanted ___ a story to her grandmother.",
+          "answer": "to read",
+          "feedback_zh": "want 後接 to + 原形。",
+          "options": [
+            "read",
+            "to read",
+            "reading"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-02",
+          "type": "single_choice",
+          "prompt": "She asked her brother ___ to her.",
+          "answer": "to listen",
+          "feedback_zh": "ask + 人 + to + 原形。",
+          "options": [
+            "listen",
+            "listening",
+            "to listen"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-03",
+          "type": "single_choice",
+          "prompt": "The coach taught Jack ___ safely.",
+          "answer": "to stop",
+          "feedback_zh": "teach + 人 + to + 原形。",
+          "options": [
+            "to stop",
+            "stopped",
+            "stop"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-04",
+          "type": "single_choice",
+          "prompt": "We did half an hour ___ exercise.",
+          "answer": "of",
+          "feedback_zh": "時間量 + of + exercise。",
+          "options": [
+            "for",
+            "of",
+            "to"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-05",
+          "type": "single_choice",
+          "prompt": "Choose the phrase meaning 每天: I practised ___.",
+          "answer": "every day",
+          "feedback_zh": "every day 表每天；everyday 為形容詞。",
+          "options": [
+            "everyday",
+            "every day",
+            "every days"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-06",
+          "type": "single_choice",
+          "prompt": "She had ___ idea for helping her neighbour.",
+          "answer": "an",
+          "feedback_zh": "idea 以元音音素開頭，前用 an。",
+          "options": [
+            "a",
+            "an",
+            "the a"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-07",
+          "type": "single_choice",
+          "prompt": "They prepared a ___ meal.",
+          "answer": "healthy",
+          "feedback_zh": "healthy 為形容詞，修飾名詞 meal。",
+          "options": [
+            "healthily",
+            "healthy",
+            "health"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        },
+        {
+          "id": "S2-08",
+          "type": "single_choice",
+          "prompt": "They wanted to eat ___.",
+          "answer": "healthily",
+          "feedback_zh": "這裏用副詞修飾 eat。",
+          "options": [
+            "health",
+            "healthily",
+            "healthiness"
+          ],
+          "hint_zh": "先找主要動詞及其後的結構，或判斷空格要修飾哪個字。"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cause and Result｜連接與因果",
+      "target": "用連接詞表時間、原因、結果及轉折。",
+      "items": [
+        {
+          "id": "S3-01",
+          "type": "single_choice",
+          "prompt": "Dan asked for help ___ he did not know how to use the brakes.",
+          "answer": "because",
+          "feedback_zh": "後半句說明求助的原因。",
+          "options": [
+            "because",
+            "so",
+            "although"
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-02",
+          "type": "single_choice",
+          "prompt": "He could not stop safely, ___ he practised with his uncle.",
+          "answer": "so",
+          "feedback_zh": "後半句是因應困難的行動／結果。",
+          "options": [
+            "so",
+            "because",
+            "before"
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-03",
+          "type": "single_choice",
+          "prompt": "Show contrast: ___ he felt nervous, he tried the easy route.",
+          "answer": "Although",
+          "feedback_zh": "緊張但仍嘗試，屬轉折。",
+          "options": [
+            "Because",
+            "Although",
+            "After"
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-04",
+          "type": "single_choice",
+          "prompt": "He checked his bicycle ___ he started riding.",
+          "answer": "before",
+          "feedback_zh": "先檢查，後騎車。",
+          "options": [
+            "before",
+            "although",
+            "so"
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-05",
+          "type": "single_choice",
+          "prompt": "___ he stopped, he got off the bicycle.",
+          "answer": "After",
+          "feedback_zh": "先停車，後下車。",
+          "options": [
+            "Although",
+            "After",
+            "Because of"
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-06",
+          "type": "single_choice",
+          "prompt": "Choose the correct sentence.",
+          "answer": "Because it was wet, they practised indoors.",
+          "feedback_zh": "because 與 so 不在這個句式中重複使用。",
+          "options": [
+            "Because it was wet, so they practised indoors.",
+            "Because it was wet, they practised indoors.",
+            "It was wet because so indoors."
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-07",
+          "type": "single_choice",
+          "prompt": "Choose the sentence with a clear result.",
+          "answer": "She practised speaking clearly, so the listeners could hear her.",
+          "feedback_zh": "結果須回應所做的練習。",
+          "options": [
+            "She practised speaking clearly, so the listeners could hear her.",
+            "She practised speaking clearly, so her bicycle was blue.",
+            "She practised speaking clearly, so last Tuesday."
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        },
+        {
+          "id": "S3-08",
+          "type": "teacher_review",
+          "prompt": "Join with although: “Max was tired. He finished checking his bag.”",
+          "answer": "Although Max was tired, he finished checking his bag.",
+          "feedback_zh": "Although 引轉折；保留原來意思。",
+          "accepted_answers": [
+            "Max finished checking his bag although he was tired."
+          ],
+          "hint_zh": "先判斷兩部分是原因、結果、轉折，還是先後次序。"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Four-panel Planner｜3D 四格計劃",
+      "target": "先訂目標，拆解困難與行動，再決定結果。",
+      "items": [
+        {
+          "id": "S4-01",
+          "type": "single_choice",
+          "prompt": "In the 3D planner, where does “Mia wanted to help at a book stall” belong?",
+          "answer": "Define",
+          "feedback_zh": "Define 先訂人物及目標。",
+          "options": [
+            "Define",
+            "Decompose",
+            "Discover"
+          ],
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-02",
+          "type": "single_choice",
+          "prompt": "Where does “She mixed up the prices, so she asked a teacher for help” belong?",
+          "answer": "Decompose",
+          "feedback_zh": "Decompose 寫困難、求助及方法。",
+          "options": [
+            "Discover",
+            "Define",
+            "Decompose"
+          ],
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-03",
+          "type": "single_choice",
+          "prompt": "Where does “She labelled the books correctly and learnt to check her work” belong?",
+          "answer": "Discover",
+          "feedback_zh": "Discover 交代結果與所學。",
+          "options": [
+            "Decompose",
+            "Discover",
+            "Define"
+          ],
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-04",
+          "type": "sequence",
+          "prompt": "Order these events: A. The customers found the prices clear. B. Mia mixed up the prices. C. A teacher showed her how to make labels. D. Mia wanted to help at the stall.",
+          "answer": "D-B-C-A",
+          "feedback_zh": "先目標，再困難、方法及結果。",
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-05",
+          "type": "single_choice",
+          "prompt": "Which action best solves the price problem?",
+          "answer": "She made clear labels and checked them with the teacher.",
+          "feedback_zh": "行動必須直接回應價錢混亂。",
+          "options": [
+            "She bought a new bicycle.",
+            "She made clear labels and checked them with the teacher.",
+            "She became taller."
+          ],
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-06",
+          "type": "single_choice",
+          "prompt": "Sam could not turn safely. Which plan is safest and most useful?",
+          "answer": "Practise easy turns with an adult in a safe area.",
+          "feedback_zh": "方法要回應轉彎技能，亦須顧及安全。",
+          "options": [
+            "Ride fast on a busy road.",
+            "Practise easy turns with an adult in a safe area.",
+            "Skip practice and hope to pass."
+          ],
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-07",
+          "type": "teacher_review",
+          "prompt": "Give one possible result after Mia checked the labels. Write one past-tense sentence.",
+          "answer": "Sample: The customers could read the prices clearly.",
+          "feedback_zh": "教師檢查：結果合理，回應標籤問題，使用完整過去敘事句。",
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        },
+        {
+          "id": "S4-08",
+          "type": "teacher_review",
+          "prompt": "Four panels: a child wanted to help at a stall; prices were confusing; a teacher showed the child how to label books; panel 4 is open. Write a two-sentence plan for panel 4, including a result and a lesson.",
+          "answer": "Sample: The stall ran smoothly after she checked the labels. She learnt that careful preparation helped others.",
+          "feedback_zh": "教師檢查：有結果及相關所學，不要求與範例完全相同。",
+          "hint_zh": "先問：這句在說目標、解決方法，還是最後的改變？"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Endings and Self-check｜結尾與自檢",
+      "target": "明確結果、感受、所學；修改重點而非背範文。",
+      "items": [
+        {
+          "id": "S5-01",
+          "type": "single_choice",
+          "prompt": "Which ending has a result, a feeling and a lesson?",
+          "answer": "She finished the labels, felt proud and learnt to check her work.",
+          "feedback_zh": "三項俱全，而且與事件有關。",
+          "options": [
+            "She was happy.",
+            "She finished the labels, felt proud and learnt to check her work.",
+            "The end."
+          ],
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-02",
+          "type": "single_choice",
+          "prompt": "Which sentence clearly says the action happened, not just that it was possible?",
+          "answer": "He joined the beginner group.",
+          "feedback_zh": "joined 明確交代已加入；could join 可表示能力或可能。",
+          "options": [
+            "He could join the beginner group.",
+            "He joined the beginner group.",
+            "He wanted to join the beginner group."
+          ],
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-03",
+          "type": "single_choice",
+          "prompt": "Which lesson best fits a story about practising a difficult skill?",
+          "answer": "Patient practice and help could improve her skills.",
+          "feedback_zh": "所學應回應故事，也不要保證入隊或長高。",
+          "options": [
+            "Practice always makes everyone taller.",
+            "Patient practice and help could improve her skills.",
+            "Everyone must win every time."
+          ],
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-04",
+          "type": "teacher_review",
+          "prompt": "Fix the tense: “Last year, he practised hard. In the end, he becomes more skilful.”",
+          "answer": "Last year, he practised hard. In the end, he became more skilful.",
+          "feedback_zh": "明示過去敘事：becomes 改為 became。",
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-05",
+          "type": "single_choice",
+          "prompt": "A past story includes: The coach said, “You need to practise.” Must need change to needed?",
+          "answer": "No",
+          "feedback_zh": "引號中是當時說話，可保留現在式。",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-06",
+          "type": "teacher_review",
+          "prompt": "Add a feeling and a reason: “She felt ___ because ___.” The story is about reading clearly to elderly people.",
+          "answer": "Sample: She felt pleased because everyone could hear her story.",
+          "feedback_zh": "感受及原因需完整、合理並與故事相關。",
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-07",
+          "type": "teacher_review",
+          "prompt": "Write one lesson for a child who asked for help after making mistakes at a book stall.",
+          "answer": "Sample: He learnt that asking for help could make his work easier.",
+          "feedback_zh": "可接受其他相關所學；不可只寫 He learnt that 而未完成句子。",
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        },
+        {
+          "id": "S5-08",
+          "type": "single_choice",
+          "prompt": "Before submitting a past-tense story, choose the best check.",
+          "answer": "Check the timeline, verb patterns, clear result and complete lesson.",
+          "feedback_zh": "優先檢查時間線、搭配、因果及結尾。",
+          "options": [
+            "Change every word to the past, including all dialogue.",
+            "Check the timeline, verb patterns, clear result and complete lesson.",
+            "Add difficult words without checking their meaning."
+          ],
+          "hint_zh": "找出結果、感受及所學；再檢查是否回應故事，動詞是否配合時間。"
+        }
+      ]
+    }
+  ]
+}
